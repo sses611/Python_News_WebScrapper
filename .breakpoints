@@ -3,9 +3,15 @@
     "main.py": [
       {
         "id": "b1b48a8a-47bf-4849-89dd-d33d433e59b9",
-        "line": 21,
-        "version": 4329,
-        "index": 492
+        "line": 1,
+        "version": 11165,
+        "index": 0
+      },
+      {
+        "id": "bfb3ec61-ca5d-4009-9e61-91301eacc41c",
+        "line": 32,
+        "version": 11165,
+        "index": 751
       }
     ]
   }

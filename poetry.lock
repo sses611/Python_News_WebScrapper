@@ -408,6 +408,14 @@ gen_docs = ["pytoolconfig", "sphinx-rtd-theme (>=1.0.0)", "sphinx-autodoc-typehi
 doc = ["sphinx (>=4.5.0)", "tabulate (>=0.8.9)"]
 
 [[package]]
+name = "regex"
+version = "2022.9.13"
+description = "Alternative regular expression module, to replace re."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "replit"
 version = "3.2.4"
 description = "A library for interacting with features of repl.it"
@@ -647,7 +655,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "a4ecc83dbd5eb27221bf5697f2fa566eb0498e3a00c53df4ef68d49666da3c6c"
+content-hash = "194047c57a69c35b5e070d316b21f5af8cfbc10602b4d5c1f0132508c942ea81"
 
 [metadata.files]
 aiohttp = []
@@ -685,6 +693,7 @@ pysocks = []
 python-lsp-jsonrpc = []
 python-lsp-server = []
 pytoolconfig = []
+regex = []
 replit = []
 requestes = []
 requests = []

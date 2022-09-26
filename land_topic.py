@@ -1,5 +1,5 @@
 from requests import get
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, requests
 
 Naver_url = "https://land.naver.com/news/field.naver"
 Daum_url = ""
