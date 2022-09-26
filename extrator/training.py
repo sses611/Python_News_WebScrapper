@@ -30,3 +30,24 @@ from bs4 import BeautifulSoup
 #         }
 #         results.append(job_data)
 #   return results
+
+
+# def get_page_count():
+#   URL = "https://news.mt.co.kr/newsList.html?pDepth1=estate&pDepth2=Etotal"
+#   response = get(URL)
+
+#   if response.status_code != 200:
+#     print("Can't request website")
+#   else:
+#     soup = BeautifulSoup(response.text, "html.parser")
+#     pagination = soup.find("div", id="paging_t17")
+#     pages = pagination.select("span > a", reclusive=False)
+#     if pages == None:
+#         return 1
+#     count = len(pages)
+
+#     if count >= 10:
+#       return 10
+#     else:
+#       return count
+
