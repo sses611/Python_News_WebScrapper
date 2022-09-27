@@ -12,7 +12,7 @@ MK = 'https://www.mk.co.kr/news/realestate/' #매일
 MoneyToday = search_news('머니투데이', MT)
 # MeailK = search_new(MeailK, MK)
 
-file = open(f"{TODAY}.csv", 'w')
+file = open(f"{TODAY}.csv", 'w', encoding='utf-8-sig')
 file.write("center, image, title, link ,press, regidate\n")
 
 for news in MoneyToday:
