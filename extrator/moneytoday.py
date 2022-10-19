@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 # def checking_url():
 
 
-def search_news(PS, URL):
+def search_mk_news(PS, URL):
     # pages = get_page_count()
     # for page in range(pages):U
     response = get(URL)
